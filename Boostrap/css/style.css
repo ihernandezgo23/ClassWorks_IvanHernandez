@@ -1,0 +1,91 @@
+
+
+@font-face {
+    font-family: ethnocentric;
+    src: url(../fonts/ethnocentric\ rg.otf);
+}
+
+* {
+    font-family: ethnocentric;
+}
+
+.body {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(43,45,66,1) 41%); 
+}
+
+.container {
+    margin-right: 30%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    font-size: 12px;    
+}
+
+.row hr {
+    border: 2px solid black;
+}
+
+#videos {
+    text-align: center;
+    color: white;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+#section1 p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section2 {
+    background-image: url(../img/fondo2.jpg);
+}
+
+#elmonoplaza {
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#elmonoplaza p img {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#demo2 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+
+#galeria {
+    background: rgba(43,45,66,1);
+    color: white;
+}
+
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+}
